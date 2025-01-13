@@ -27,6 +27,7 @@
 4. Wait for the PDF generation and upload to complete.
 
 ## TODO
-FirFox
-Edge
-Safari
+1. Safari
+2. Edge
+3. FireFox
+
