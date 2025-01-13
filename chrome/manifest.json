@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "网页保存器",
+  "name": "web2supernote",
   "version": "1.1",
-  "description": "保存网页为PDF到Supernote",
+  "description": "saves web pages as PDFs and uploads them to Supernote devices.",
   "default_locale": "zh_CN",
   "action": {
     "default_popup": "popup.html"
