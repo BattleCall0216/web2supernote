@@ -1,0 +1,59 @@
+{
+  "extName": {
+    "message": "ウェブページ保存ツール"
+  },
+  "extDescription": {
+    "message": "ウェブページをPDFとしてSupernoteに保存"
+  },
+  "title": {
+    "message": "Supernoteに保存"
+  },
+  "inputPlaceholder": {
+    "message": "サーバーアドレスを入力 (例: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "デバイスでブラウザ転送機能を有効にし、表示されたURLを入力してください"
+  },
+  "uploadButton": {
+    "message": "アップロード"
+  },
+  "selectLocation": {
+    "message": "保存場所を選択"
+  },
+  "rootDirectory": {
+    "message": "ルート"
+  },
+  "cancelButton": {
+    "message": "キャンセル"
+  },
+  "confirmButton": {
+    "message": "確認"
+  },
+  "errorNoServer": {
+    "message": "サーバーアドレスを入力してください"
+  },
+  "errorInvalidUrl": {
+    "message": "有効なURLを入力してください"
+  },
+  "errorNoTab": {
+    "message": "現在のタブを取得できません"
+  },
+  "errorInvalidPage": {
+    "message": "このページでは操作できません"
+  },
+  "errorNoLocation": {
+    "message": "保存場所を選択してください"
+  },
+  "statusGeneratingPdf": {
+    "message": "PDFを生成中..."
+  },
+  "statusUploading": {
+    "message": "SupernoteにPDFをアップロード中..."
+  },
+  "statusSuccess": {
+    "message": "アップロード完了！"
+  },
+  "statusCanceled": {
+    "message": "操作がキャンセルされました"
+  }
+} 

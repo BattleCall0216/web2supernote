@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Zapisywanie stron internetowych"
+  },
+  "extDescription": {
+    "message": "Zapisz strony internetowe jako PDF w Supernote"
+  },
+  "title": {
+    "message": "Zapisz w Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "Wprowadź adres serwera (np.: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Włącz transfer przeglądarki na swoim urządzeniu i wprowadź wyświetlony URL"
+  },
+  "uploadButton": {
+    "message": "Prześlij"
+  },
+  "selectLocation": {
+    "message": "Wybierz lokalizację"
+  },
+  "rootDirectory": {
+    "message": "Katalog główny"
+  },
+  "cancelButton": {
+    "message": "Anuluj"
+  },
+  "confirmButton": {
+    "message": "Potwierdź"
+  },
+  "errorNoServer": {
+    "message": "Wprowadź adres serwera"
+  },
+  "errorInvalidUrl": {
+    "message": "Wprowadź prawidłowy URL"
+  },
+  "errorNoTab": {
+    "message": "Nie można uzyskać bieżącej karty"
+  },
+  "errorInvalidPage": {
+    "message": "Nie można operować na tego typu stronie"
+  },
+  "errorNoLocation": {
+    "message": "Wybierz lokalizację"
+  },
+  "statusGeneratingPdf": {
+    "message": "Generowanie PDF..."
+  },
+  "statusUploading": {
+    "message": "Przesyłanie PDF do Supernote..."
+  },
+  "statusSuccess": {
+    "message": "Przesyłanie zakończone!"
+  },
+  "statusCanceled": {
+    "message": "Operacja anulowana"
+  },
+  "errorParseDirectory": {
+    "message": "Nie można przeanalizować danych katalogu"
+  },
+  "errorGetDirectory": {
+    "message": "Błąd podczas pobierania katalogu: $1"
+  },
+  "errorUploadFailed": {
+    "message": "Przesyłanie nie powiodło się: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "Generowanie PDF nie powiodło się"
+  },
+  "errorProcessing": {
+    "message": "Przetwarzanie nie powiodło się: $1"
+  },
+  "errorUnknown": {
+    "message": "Nieznany błąd"
+  },
+  "errorPrefix": {
+    "message": "Błąd: "
+  }
+} 

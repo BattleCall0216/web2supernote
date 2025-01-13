@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Сохранение веб-страниц"
+  },
+  "extDescription": {
+    "message": "Сохраняйте веб-страницы в формате PDF на Supernote"
+  },
+  "title": {
+    "message": "Сохранить в Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "Введите адрес сервера (напр.: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Включите передачу через браузер на вашем устройстве и введите отображаемый URL"
+  },
+  "uploadButton": {
+    "message": "Загрузить"
+  },
+  "selectLocation": {
+    "message": "Выберите место сохранения"
+  },
+  "rootDirectory": {
+    "message": "Корневой каталог"
+  },
+  "cancelButton": {
+    "message": "Отмена"
+  },
+  "confirmButton": {
+    "message": "Подтвердить"
+  },
+  "errorNoServer": {
+    "message": "Введите адрес сервера"
+  },
+  "errorInvalidUrl": {
+    "message": "Введите действительный URL"
+  },
+  "errorNoTab": {
+    "message": "Не удается получить текущую вкладку"
+  },
+  "errorInvalidPage": {
+    "message": "Невозможно работать с этим типом страницы"
+  },
+  "errorNoLocation": {
+    "message": "Выберите место сохранения"
+  },
+  "statusGeneratingPdf": {
+    "message": "Создание PDF..."
+  },
+  "statusUploading": {
+    "message": "Загрузка PDF в Supernote..."
+  },
+  "statusSuccess": {
+    "message": "Загрузка успешна!"
+  },
+  "statusCanceled": {
+    "message": "Операция отменена"
+  },
+  "errorParseDirectory": {
+    "message": "Не удается проанализировать данные каталога"
+  },
+  "errorGetDirectory": {
+    "message": "Ошибка при получении каталога: $1"
+  },
+  "errorUploadFailed": {
+    "message": "Ошибка загрузки: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "Ошибка создания PDF"
+  },
+  "errorProcessing": {
+    "message": "Ошибка обработки: $1"
+  },
+  "errorUnknown": {
+    "message": "Неизвестная ошибка"
+  },
+  "errorPrefix": {
+    "message": "Ошибка: "
+  }
+} 

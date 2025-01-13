@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Lưu trang web"
+  },
+  "extDescription": {
+    "message": "Lưu trang web dưới dạng PDF vào Supernote"
+  },
+  "title": {
+    "message": "Lưu vào Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "Nhập địa chỉ máy chủ (vd: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Vui lòng bật chuyển dữ liệu trình duyệt trên thiết bị và nhập URL hiển thị"
+  },
+  "uploadButton": {
+    "message": "Tải lên"
+  },
+  "selectLocation": {
+    "message": "Chọn vị trí lưu"
+  },
+  "rootDirectory": {
+    "message": "Thư mục gốc"
+  },
+  "cancelButton": {
+    "message": "Hủy"
+  },
+  "confirmButton": {
+    "message": "Xác nhận"
+  },
+  "errorNoServer": {
+    "message": "Vui lòng nhập địa chỉ máy chủ"
+  },
+  "errorInvalidUrl": {
+    "message": "Vui lòng nhập URL hợp lệ"
+  },
+  "errorNoTab": {
+    "message": "Không thể lấy tab hiện tại"
+  },
+  "errorInvalidPage": {
+    "message": "Không thể thao tác trên trang này"
+  },
+  "errorNoLocation": {
+    "message": "Vui lòng chọn vị trí lưu"
+  },
+  "statusGeneratingPdf": {
+    "message": "Đang tạo PDF..."
+  },
+  "statusUploading": {
+    "message": "Đang tải PDF lên Supernote..."
+  },
+  "statusSuccess": {
+    "message": "Tải lên thành công!"
+  },
+  "statusCanceled": {
+    "message": "Đã hủy thao tác"
+  },
+  "errorParseDirectory": {
+    "message": "Không thể phân tích dữ liệu thư mục"
+  },
+  "errorGetDirectory": {
+    "message": "Lỗi khi lấy thư mục: $1"
+  },
+  "errorUploadFailed": {
+    "message": "Tải lên thất bại: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "Tạo PDF thất bại"
+  },
+  "errorProcessing": {
+    "message": "Xử lý thất bại: $1"
+  },
+  "errorUnknown": {
+    "message": "Lỗi không xác định"
+  },
+  "errorPrefix": {
+    "message": "Lỗi: "
+  }
+} 

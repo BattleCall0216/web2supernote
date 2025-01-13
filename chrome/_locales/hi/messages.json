@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "वेब पेज सेवर"
+  },
+  "extDescription": {
+    "message": "वेब पेज को PDF के रूप में Supernote पर सहेजें"
+  },
+  "title": {
+    "message": "Supernote पर सहेजें"
+  },
+  "inputPlaceholder": {
+    "message": "सर्वर का पता दर्ज करें (उदा.: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "कृपया अपने डिवाइस पर ब्राउज़र ट्रांसफर सक्षम करें और प्रदर्शित URL दर्ज करें"
+  },
+  "uploadButton": {
+    "message": "अपलोड करें"
+  },
+  "selectLocation": {
+    "message": "सहेजने का स्थान चुनें"
+  },
+  "rootDirectory": {
+    "message": "रूट डायरेक्टरी"
+  },
+  "cancelButton": {
+    "message": "रद्द करें"
+  },
+  "confirmButton": {
+    "message": "पुष्टि करें"
+  },
+  "errorNoServer": {
+    "message": "कृपया सर्वर का पता दर्ज करें"
+  },
+  "errorInvalidUrl": {
+    "message": "कृपया मान्य URL दर्ज करें"
+  },
+  "errorNoTab": {
+    "message": "वर्तमान टैब प्राप्त नहीं कर सकते"
+  },
+  "errorInvalidPage": {
+    "message": "इस प्रकार के पेज पर कार्य नहीं कर सकते"
+  },
+  "errorNoLocation": {
+    "message": "कृपया सहेजने का स्थान चुनें"
+  },
+  "statusGeneratingPdf": {
+    "message": "PDF बना रहा है..."
+  },
+  "statusUploading": {
+    "message": "Supernote पर PDF अपलोड कर रहा है..."
+  },
+  "statusSuccess": {
+    "message": "अपलोड सफल!"
+  },
+  "statusCanceled": {
+    "message": "कार्य रद्द किया गया"
+  },
+  "errorParseDirectory": {
+    "message": "डायरेक्टरी डेटा का विश्लेषण नहीं कर सकते"
+  },
+  "errorGetDirectory": {
+    "message": "डायरेक्टरी प्राप्त करने में त्रुटि: $1"
+  },
+  "errorUploadFailed": {
+    "message": "अपलोड विफल: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "PDF बनाने में विफल"
+  },
+  "errorProcessing": {
+    "message": "प्रोसेसिंग विफल: $1"
+  },
+  "errorUnknown": {
+    "message": "अज्ञात त्रुटि"
+  },
+  "errorPrefix": {
+    "message": "त्रुटि: "
+  }
+} 

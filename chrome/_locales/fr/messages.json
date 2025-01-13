@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Sauvegarde de pages web"
+  },
+  "extDescription": {
+    "message": "Enregistrer des pages web en PDF sur Supernote"
+  },
+  "title": {
+    "message": "Enregistrer sur Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "Entrez l'adresse du serveur (ex.: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Veuillez activer le transfert du navigateur sur votre appareil et saisir l'URL affichée"
+  },
+  "uploadButton": {
+    "message": "Télécharger"
+  },
+  "selectLocation": {
+    "message": "Sélectionner l'emplacement"
+  },
+  "rootDirectory": {
+    "message": "Répertoire racine"
+  },
+  "cancelButton": {
+    "message": "Annuler"
+  },
+  "confirmButton": {
+    "message": "Confirmer"
+  },
+  "errorNoServer": {
+    "message": "Veuillez entrer l'adresse du serveur"
+  },
+  "errorInvalidUrl": {
+    "message": "Veuillez entrer une URL valide"
+  },
+  "errorNoTab": {
+    "message": "Impossible d'obtenir l'onglet actuel"
+  },
+  "errorInvalidPage": {
+    "message": "Impossible d'opérer sur ce type de page"
+  },
+  "errorNoLocation": {
+    "message": "Veuillez sélectionner un emplacement"
+  },
+  "statusGeneratingPdf": {
+    "message": "Génération du PDF..."
+  },
+  "statusUploading": {
+    "message": "Téléchargement du PDF vers Supernote..."
+  },
+  "statusSuccess": {
+    "message": "Téléchargement réussi !"
+  },
+  "statusCanceled": {
+    "message": "Opération annulée"
+  },
+  "errorParseDirectory": {
+    "message": "Impossible d'analyser les données du répertoire"
+  },
+  "errorGetDirectory": {
+    "message": "Erreur lors de l'obtention du répertoire : $1"
+  },
+  "errorUploadFailed": {
+    "message": "Échec du téléchargement : $1"
+  },
+  "errorPdfGeneration": {
+    "message": "Échec de la génération du PDF"
+  },
+  "errorProcessing": {
+    "message": "Échec du traitement : $1"
+  },
+  "errorUnknown": {
+    "message": "Erreur inconnue"
+  },
+  "errorPrefix": {
+    "message": "Erreur : "
+  }
+} 

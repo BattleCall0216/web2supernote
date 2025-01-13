@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Web-Seiten-Speicher"
+  },
+  "extDescription": {
+    "message": "Speichern Sie Webseiten als PDF auf Supernote"
+  },
+  "title": {
+    "message": "Auf Supernote speichern"
+  },
+  "inputPlaceholder": {
+    "message": "Server-Adresse eingeben (z.B.: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Bitte aktivieren Sie die Browser-Übertragung auf Ihrem Gerät und geben Sie die angezeigte URL ein"
+  },
+  "uploadButton": {
+    "message": "Hochladen"
+  },
+  "selectLocation": {
+    "message": "Speicherort auswählen"
+  },
+  "rootDirectory": {
+    "message": "Stammverzeichnis"
+  },
+  "cancelButton": {
+    "message": "Abbrechen"
+  },
+  "confirmButton": {
+    "message": "Bestätigen"
+  },
+  "errorNoServer": {
+    "message": "Bitte geben Sie die Server-Adresse ein"
+  },
+  "errorInvalidUrl": {
+    "message": "Bitte geben Sie eine gültige URL ein"
+  },
+  "errorNoTab": {
+    "message": "Aktueller Tab kann nicht abgerufen werden"
+  },
+  "errorInvalidPage": {
+    "message": "Auf dieser Art von Seite nicht möglich"
+  },
+  "errorNoLocation": {
+    "message": "Bitte wählen Sie einen Speicherort"
+  },
+  "statusGeneratingPdf": {
+    "message": "PDF wird erstellt..."
+  },
+  "statusUploading": {
+    "message": "PDF wird auf Supernote hochgeladen..."
+  },
+  "statusSuccess": {
+    "message": "Upload erfolgreich!"
+  },
+  "statusCanceled": {
+    "message": "Vorgang abgebrochen"
+  },
+  "errorParseDirectory": {
+    "message": "Verzeichnisdaten können nicht analysiert werden"
+  },
+  "errorGetDirectory": {
+    "message": "Fehler beim Abrufen des Verzeichnisses: $1"
+  },
+  "errorUploadFailed": {
+    "message": "Upload fehlgeschlagen: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "PDF-Datenerstellung fehlgeschlagen"
+  },
+  "errorProcessing": {
+    "message": "Verarbeitung fehlgeschlagen: $1"
+  },
+  "errorUnknown": {
+    "message": "Unbekannter Fehler"
+  },
+  "errorPrefix": {
+    "message": "Fehler: "
+  }
+} 

@@ -1,0 +1,59 @@
+{
+  "extName": {
+    "message": "網頁保存器"
+  },
+  "extDescription": {
+    "message": "保存網頁為PDF到Supernote"
+  },
+  "title": {
+    "message": "保存到Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "輸入伺服器地址 (例如: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "請在設備上打開瀏覽器傳輸功能，並輸入設備顯示的URL地址"
+  },
+  "uploadButton": {
+    "message": "上傳"
+  },
+  "selectLocation": {
+    "message": "選擇保存位置"
+  },
+  "rootDirectory": {
+    "message": "根目錄"
+  },
+  "cancelButton": {
+    "message": "取消"
+  },
+  "confirmButton": {
+    "message": "確定"
+  },
+  "errorNoServer": {
+    "message": "請輸入伺服器地址"
+  },
+  "errorInvalidUrl": {
+    "message": "請輸入有效的URL地址"
+  },
+  "errorNoTab": {
+    "message": "無法獲取當前標籤頁"
+  },
+  "errorInvalidPage": {
+    "message": "無法在此類頁面執行操作"
+  },
+  "errorNoLocation": {
+    "message": "請選擇保存位置"
+  },
+  "statusGeneratingPdf": {
+    "message": "正在生成PDF..."
+  },
+  "statusUploading": {
+    "message": "正在上傳PDF到Supernote..."
+  },
+  "statusSuccess": {
+    "message": "上傳成功！"
+  },
+  "statusCanceled": {
+    "message": "操作已取消"
+  }
+} 

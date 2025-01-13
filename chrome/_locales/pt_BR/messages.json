@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Salvador de páginas web"
+  },
+  "extDescription": {
+    "message": "Salve páginas web como PDF no Supernote"
+  },
+  "title": {
+    "message": "Salvar no Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "Digite o endereço do servidor (ex.: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Ative a transferência do navegador no seu dispositivo e digite a URL exibida"
+  },
+  "uploadButton": {
+    "message": "Enviar"
+  },
+  "selectLocation": {
+    "message": "Selecionar local"
+  },
+  "rootDirectory": {
+    "message": "Diretório raiz"
+  },
+  "cancelButton": {
+    "message": "Cancelar"
+  },
+  "confirmButton": {
+    "message": "Confirmar"
+  },
+  "errorNoServer": {
+    "message": "Digite o endereço do servidor"
+  },
+  "errorInvalidUrl": {
+    "message": "Digite uma URL válida"
+  },
+  "errorNoTab": {
+    "message": "Não foi possível obter a aba atual"
+  },
+  "errorInvalidPage": {
+    "message": "Não é possível operar neste tipo de página"
+  },
+  "errorNoLocation": {
+    "message": "Selecione um local"
+  },
+  "statusGeneratingPdf": {
+    "message": "Gerando PDF..."
+  },
+  "statusUploading": {
+    "message": "Enviando PDF para o Supernote..."
+  },
+  "statusSuccess": {
+    "message": "Envio concluído!"
+  },
+  "statusCanceled": {
+    "message": "Operação cancelada"
+  },
+  "errorParseDirectory": {
+    "message": "Não foi possível analisar os dados do diretório"
+  },
+  "errorGetDirectory": {
+    "message": "Erro ao obter diretório: $1"
+  },
+  "errorUploadFailed": {
+    "message": "Falha no envio: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "Falha na geração do PDF"
+  },
+  "errorProcessing": {
+    "message": "Falha no processamento: $1"
+  },
+  "errorUnknown": {
+    "message": "Erro desconhecido"
+  },
+  "errorPrefix": {
+    "message": "Erro: "
+  }
+} 

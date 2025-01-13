@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Salva pagine web"
+  },
+  "extDescription": {
+    "message": "Salva pagine web come PDF su Supernote"
+  },
+  "title": {
+    "message": "Salva su Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "Inserisci l'indirizzo del server (es.: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Attiva il trasferimento del browser sul tuo dispositivo e inserisci l'URL visualizzato"
+  },
+  "uploadButton": {
+    "message": "Carica"
+  },
+  "selectLocation": {
+    "message": "Seleziona posizione"
+  },
+  "rootDirectory": {
+    "message": "Directory principale"
+  },
+  "cancelButton": {
+    "message": "Annulla"
+  },
+  "confirmButton": {
+    "message": "Conferma"
+  },
+  "errorNoServer": {
+    "message": "Inserisci l'indirizzo del server"
+  },
+  "errorInvalidUrl": {
+    "message": "Inserisci un URL valido"
+  },
+  "errorNoTab": {
+    "message": "Impossibile ottenere la scheda corrente"
+  },
+  "errorInvalidPage": {
+    "message": "Impossibile operare su questo tipo di pagina"
+  },
+  "errorNoLocation": {
+    "message": "Seleziona una posizione"
+  },
+  "statusGeneratingPdf": {
+    "message": "Generazione PDF in corso..."
+  },
+  "statusUploading": {
+    "message": "Caricamento PDF su Supernote..."
+  },
+  "statusSuccess": {
+    "message": "Caricamento completato!"
+  },
+  "statusCanceled": {
+    "message": "Operazione annullata"
+  },
+  "errorParseDirectory": {
+    "message": "Impossibile analizzare i dati della directory"
+  },
+  "errorGetDirectory": {
+    "message": "Errore durante l'ottenimento della directory: $1"
+  },
+  "errorUploadFailed": {
+    "message": "Caricamento fallito: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "Generazione PDF fallita"
+  },
+  "errorProcessing": {
+    "message": "Elaborazione fallita: $1"
+  },
+  "errorUnknown": {
+    "message": "Errore sconosciuto"
+  },
+  "errorPrefix": {
+    "message": "Errore: "
+  }
+} 

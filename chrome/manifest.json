@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "网页保存器",
+  "version": "1.1",
+  "description": "保存网页为PDF到Supernote",
+  "default_locale": "zh_CN",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "storage",
+    "scripting",
+    "tabs",
+    "debugger"
+  ]
+} 

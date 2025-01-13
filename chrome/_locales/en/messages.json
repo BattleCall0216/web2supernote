@@ -1,0 +1,59 @@
+{
+  "extName": {
+    "message": "Web Page Saver"
+  },
+  "extDescription": {
+    "message": "Save web pages as PDF to Supernote"
+  },
+  "title": {
+    "message": "Save to Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "Enter server address (e.g., http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Please enable browser transfer on your device and enter the displayed URL"
+  },
+  "uploadButton": {
+    "message": "Upload"
+  },
+  "selectLocation": {
+    "message": "Select Save Location"
+  },
+  "rootDirectory": {
+    "message": "Root"
+  },
+  "cancelButton": {
+    "message": "Cancel"
+  },
+  "confirmButton": {
+    "message": "Confirm"
+  },
+  "errorNoServer": {
+    "message": "Please enter server address"
+  },
+  "errorInvalidUrl": {
+    "message": "Please enter a valid URL"
+  },
+  "errorNoTab": {
+    "message": "Cannot get current tab"
+  },
+  "errorInvalidPage": {
+    "message": "Cannot operate on this type of page"
+  },
+  "errorNoLocation": {
+    "message": "Please select save location"
+  },
+  "statusGeneratingPdf": {
+    "message": "Generating PDF..."
+  },
+  "statusUploading": {
+    "message": "Uploading PDF to Supernote..."
+  },
+  "statusSuccess": {
+    "message": "Upload successful!"
+  },
+  "statusCanceled": {
+    "message": "Operation canceled"
+  }
+} 

@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Guardador de páginas web"
+  },
+  "extDescription": {
+    "message": "Guarda páginas web como PDF en Supernote"
+  },
+  "title": {
+    "message": "Guardar en Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "Introduce la dirección del servidor (ej.: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Por favor, activa la transferencia del navegador en tu dispositivo e introduce la URL mostrada"
+  },
+  "uploadButton": {
+    "message": "Subir"
+  },
+  "selectLocation": {
+    "message": "Seleccionar ubicación"
+  },
+  "rootDirectory": {
+    "message": "Directorio raíz"
+  },
+  "cancelButton": {
+    "message": "Cancelar"
+  },
+  "confirmButton": {
+    "message": "Confirmar"
+  },
+  "errorNoServer": {
+    "message": "Por favor, introduce la dirección del servidor"
+  },
+  "errorInvalidUrl": {
+    "message": "Por favor, introduce una URL válida"
+  },
+  "errorNoTab": {
+    "message": "No se puede obtener la pestaña actual"
+  },
+  "errorInvalidPage": {
+    "message": "No se puede operar en este tipo de página"
+  },
+  "errorNoLocation": {
+    "message": "Por favor, selecciona una ubicación"
+  },
+  "statusGeneratingPdf": {
+    "message": "Generando PDF..."
+  },
+  "statusUploading": {
+    "message": "Subiendo PDF a Supernote..."
+  },
+  "statusSuccess": {
+    "message": "¡Subida exitosa!"
+  },
+  "statusCanceled": {
+    "message": "Operación cancelada"
+  },
+  "errorParseDirectory": {
+    "message": "No se pueden analizar los datos del directorio"
+  },
+  "errorGetDirectory": {
+    "message": "Error al obtener el directorio: $1"
+  },
+  "errorUploadFailed": {
+    "message": "Error al subir: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "Error al generar el PDF"
+  },
+  "errorProcessing": {
+    "message": "Error de procesamiento: $1"
+  },
+  "errorUnknown": {
+    "message": "Error desconocido"
+  },
+  "errorPrefix": {
+    "message": "Error: "
+  }
+} 

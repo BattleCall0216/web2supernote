@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title data-i18n="title"></title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #progress {
+      width: 100%;
+      height: 4px;
+      margin: 10px 0;
+      display: none;
+      border-radius: 2px;
+    }
+    #status {
+      margin-top: 10px;
+      word-break: break-all;
+      color: #666;
+      font-size: 13px;
+    }
+    .server-input-container {
+      position: relative;
+      margin-bottom: 10px;
+    }
+    .server-input {
+      width: 100%;
+      padding: 8px;
+      padding-right: 30px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .history-dropdown {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #666;
+      display: none;
+    }
+    .history-dropdown.show {
+      display: block;
+    }
+    .history-list {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+    .history-list.show {
+      display: block;
+    }
+    .history-item {
+      padding: 8px;
+      cursor: pointer;
+    }
+    .history-item:hover {
+      background: #f5f5f5;
+    }
+    .server-hint {
+      display: none;
+      margin: 10px 0;
+      padding: 10px;
+      background: #fff3cd;
+      border: 1px solid #ffeeba;
+      border-radius: 4px;
+      color: #856404;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .server-hint.show {
+      display: block;
+    }
+    .directory-dialog {
+      display: none;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin: 10px 0;
+    }
+    .directory-dialog h2 {
+      margin: 0 0 15px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    .directory-list {
+      max-height: 200px;
+      overflow-y: auto;
+      margin: 10px 0;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      scrollbar-width: thin;
+      scrollbar-color: #ccc transparent;
+    }
+    .directory-list::-webkit-scrollbar {
+      width: 6px;
+    }
+    .directory-list::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .directory-list::-webkit-scrollbar-thumb {
+      background-color: #ccc;
+      border-radius: 3px;
+    }
+    .directory-list::-webkit-scrollbar-thumb:hover {
+      background-color: #999;
+    }
+    .directory-item {
+      padding: 10px 15px;
+      cursor: pointer;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      transition: background-color 0.2s;
+    }
+    .directory-item:last-child {
+      border-bottom: none;
+    }
+    .directory-item:hover {
+      background: #f5f5f5;
+    }
+    .directory-item.selected {
+      background: #e3f2fd;
+    }
+    .directory-item .icon {
+      margin-right: 10px;
+      color: #666;
+    }
+    .dialog-buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      margin-top: 15px;
+    }
+    .dialog-buttons button {
+      width: auto;
+      padding: 8px 16px;
+      margin: 0;
+    }
+    #dialogCancel {
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    #dialogCancel:hover {
+      background-color: #e8e8e8;
+    }
+    .breadcrumb {
+      margin-bottom: 10px;
+      padding: 5px;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+    .breadcrumb span {
+      color: #666;
+    }
+    .breadcrumb span:not(:last-child):after {
+      content: ' > ';
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="title"></h1>
+  <div class="server-input-container">
+    <input type="text" class="server-input" id="serverUrl" data-i18n-placeholder="inputPlaceholder">
+    <span class="history-dropdown" id="historyDropdown">▼</span>
+    <div class="history-list" id="historyList"></div>
+  </div>
+  <div id="serverHint" class="server-hint" data-i18n="serverHint"></div>
+  <button id="downloadBtn" data-i18n="uploadButton"></button>
+
+  <!-- 目录选择面板 -->
+  <div id="directoryDialog" class="directory-dialog">
+    <h2 data-i18n="selectLocation"></h2>
+    <div class="breadcrumb" id="pathBreadcrumb">
+      <span data-i18n="rootDirectory"></span>
+    </div>
+    <div id="directoryList" class="directory-list"></div>
+    <div class="dialog-buttons">
+      <button id="dialogCancel" data-i18n="cancelButton"></button>
+      <button id="dialogConfirm" data-i18n="confirmButton"></button>
+    </div>
+  </div>
+
+  <progress id="progress" value="0" max="100"></progress>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html> 

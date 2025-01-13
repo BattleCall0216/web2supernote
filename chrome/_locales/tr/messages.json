@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Web Sayfası Kaydetme"
+  },
+  "extDescription": {
+    "message": "Web sayfalarını Supernote'a PDF olarak kaydedin"
+  },
+  "title": {
+    "message": "Supernote'a Kaydet"
+  },
+  "inputPlaceholder": {
+    "message": "Sunucu adresini girin (örn: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "Lütfen cihazınızda tarayıcı aktarımını etkinleştirin ve görüntülenen URL'yi girin"
+  },
+  "uploadButton": {
+    "message": "Yükle"
+  },
+  "selectLocation": {
+    "message": "Kayıt konumunu seçin"
+  },
+  "rootDirectory": {
+    "message": "Kök dizin"
+  },
+  "cancelButton": {
+    "message": "İptal"
+  },
+  "confirmButton": {
+    "message": "Onayla"
+  },
+  "errorNoServer": {
+    "message": "Lütfen sunucu adresini girin"
+  },
+  "errorInvalidUrl": {
+    "message": "Lütfen geçerli bir URL girin"
+  },
+  "errorNoTab": {
+    "message": "Mevcut sekme alınamıyor"
+  },
+  "errorInvalidPage": {
+    "message": "Bu tür sayfada işlem yapılamıyor"
+  },
+  "errorNoLocation": {
+    "message": "Lütfen bir konum seçin"
+  },
+  "statusGeneratingPdf": {
+    "message": "PDF oluşturuluyor..."
+  },
+  "statusUploading": {
+    "message": "PDF Supernote'a yükleniyor..."
+  },
+  "statusSuccess": {
+    "message": "Yükleme başarılı!"
+  },
+  "statusCanceled": {
+    "message": "İşlem iptal edildi"
+  },
+  "errorParseDirectory": {
+    "message": "Dizin verileri ayrıştırılamıyor"
+  },
+  "errorGetDirectory": {
+    "message": "Dizin alınırken hata: $1"
+  },
+  "errorUploadFailed": {
+    "message": "Yükleme başarısız: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "PDF oluşturma başarısız"
+  },
+  "errorProcessing": {
+    "message": "İşlem başarısız: $1"
+  },
+  "errorUnknown": {
+    "message": "Bilinmeyen hata"
+  },
+  "errorPrefix": {
+    "message": "Hata: "
+  }
+} 

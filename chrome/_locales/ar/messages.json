@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "حافظ صفحات الويب"
+  },
+  "extDescription": {
+    "message": "حفظ صفحات الويب كملفات PDF على Supernote"
+  },
+  "title": {
+    "message": "حفظ إلى Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "أدخل عنوان الخادم (مثال: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "يرجى تمكين نقل المتصفح على جهازك وإدخال عنوان URL المعروض"
+  },
+  "uploadButton": {
+    "message": "تحميل"
+  },
+  "selectLocation": {
+    "message": "اختر موقع الحفظ"
+  },
+  "rootDirectory": {
+    "message": "المجلد الرئيسي"
+  },
+  "cancelButton": {
+    "message": "إلغاء"
+  },
+  "confirmButton": {
+    "message": "تأكيد"
+  },
+  "errorNoServer": {
+    "message": "يرجى إدخال عنوان الخادم"
+  },
+  "errorInvalidUrl": {
+    "message": "يرجى إدخال عنوان URL صالح"
+  },
+  "errorNoTab": {
+    "message": "لا يمكن الوصول إلى علامة التبويب الحالية"
+  },
+  "errorInvalidPage": {
+    "message": "لا يمكن العمل على هذا النوع من الصفحات"
+  },
+  "errorNoLocation": {
+    "message": "يرجى اختيار موقع الحفظ"
+  },
+  "statusGeneratingPdf": {
+    "message": "جاري إنشاء PDF..."
+  },
+  "statusUploading": {
+    "message": "جاري تحميل PDF إلى Supernote..."
+  },
+  "statusSuccess": {
+    "message": "تم التحميل بنجاح!"
+  },
+  "statusCanceled": {
+    "message": "تم إلغاء العملية"
+  },
+  "errorParseDirectory": {
+    "message": "لا يمكن تحليل بيانات المجلد"
+  },
+  "errorGetDirectory": {
+    "message": "خطأ في الحصول على المجلد: $1"
+  },
+  "errorUploadFailed": {
+    "message": "فشل التحميل: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "فشل إنشاء PDF"
+  },
+  "errorProcessing": {
+    "message": "فشل المعالجة: $1"
+  },
+  "errorUnknown": {
+    "message": "خطأ غير معروف"
+  },
+  "errorPrefix": {
+    "message": "خطأ: "
+  }
+} 

@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "网页保存器"
+  },
+  "extDescription": {
+    "message": "保存网页为PDF到Supernote"
+  },
+  "title": {
+    "message": "保存到Supernote"
+  },
+  "inputPlaceholder": {
+    "message": "输入服务器地址 (例如: http://192.168.5.38:8089)"
+  },
+  "serverHint": {
+    "message": "请在设备上打开浏览器传输功能，并输入设备显示的URL地址"
+  },
+  "uploadButton": {
+    "message": "上传"
+  },
+  "selectLocation": {
+    "message": "选择保存位置"
+  },
+  "rootDirectory": {
+    "message": "根目录"
+  },
+  "cancelButton": {
+    "message": "取消"
+  },
+  "confirmButton": {
+    "message": "确定"
+  },
+  "errorNoServer": {
+    "message": "请输入服务器地址"
+  },
+  "errorInvalidUrl": {
+    "message": "请输入有效的URL地址"
+  },
+  "errorNoTab": {
+    "message": "无法获取当前标签页"
+  },
+  "errorInvalidPage": {
+    "message": "无法在此类页面执行操作"
+  },
+  "errorNoLocation": {
+    "message": "请选择保存位置"
+  },
+  "statusGeneratingPdf": {
+    "message": "正在生成PDF..."
+  },
+  "statusUploading": {
+    "message": "正在上传PDF到Supernote..."
+  },
+  "statusSuccess": {
+    "message": "上传成功！"
+  },
+  "statusCanceled": {
+    "message": "操作已取消"
+  },
+  "errorParseDirectory": {
+    "message": "无法解析目录数据"
+  },
+  "errorGetDirectory": {
+    "message": "获取目录失败: $1"
+  },
+  "errorUploadFailed": {
+    "message": "上传失败: $1"
+  },
+  "errorPdfGeneration": {
+    "message": "PDF数据生成失败"
+  },
+  "errorProcessing": {
+    "message": "处理失败: $1"
+  },
+  "errorUnknown": {
+    "message": "未知错误"
+  },
+  "errorPrefix": {
+    "message": "错误："
+  }
+} 
