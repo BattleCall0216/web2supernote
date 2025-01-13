@@ -3,7 +3,7 @@
   "name": "web2supernote",
   "version": "1.1",
   "description": "saves web pages as PDFs and uploads them to Supernote devices.",
-  "default_locale": "zh_CN",
+  "default_locale": "en",
   "action": {
     "default_popup": "popup.html"
   },
