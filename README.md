@@ -25,3 +25,8 @@
 2. Enter the server address of the Supernote device in the input box.
 3. Click the "Upload" button.
 4. Wait for the PDF generation and upload to complete.
+
+## TODO
+FirFox
+Edge
+Safari
